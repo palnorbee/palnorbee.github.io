@@ -13,5 +13,5 @@ Unfortunately, management turned down the idea thus i stopped finishing it.2 thi
 <h3></h3><ul><li>Fixing auto. date/time</li><li>Automatic sheet creation from a template</li></ul><h3>
 <h3>Both of those can be implemented,though the automation is a paid service from AppSheet<h3>
 
-<iframe src="https://www.appsheet.com/preview/bfe20753-0516-44ef-8d63-610a988fa2c0" width="320" height="568"></iframe>
+<iframe src="https://www.appsheet.com/preview/bfe20753-0516-44ef-8d63-610a988fa2c0" width="600" height="600"></iframe>
 
