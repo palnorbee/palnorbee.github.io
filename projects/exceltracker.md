@@ -14,7 +14,7 @@ Unfortunately, management turned down the idea thus i stopped finishing it.2 thi
 <h3>Both of those can be implemented,though the automation is a paid service from AppSheet<h3>
 
 <iframe src="https://www.appsheet.com/preview/bfe20753-0516-44ef-8d63-610a988fa2c0" width="1400" height="600"></iframe> 
-
 <center><h6>Preview of the app<h6><center>
 
-<img src="https://palnorbee.github.io/projects/screenshot.PNG" alt="Screenshot of the data"> <center><h6>Screenshot of the data<h6><center>
+<img src="https://palnorbee.github.io/projects/screenshot.PNG" alt="Screenshot of the data"> 
+<center><h6>Screenshot of the data<h6><center>
