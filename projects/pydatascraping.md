@@ -35,9 +35,9 @@ import requests
         <br><br>
 html_text = requests.get('https://szamoldki.hu/hu/hirek/cigaretta-arak-2023-mennyibe-kerul-egy-doboz-cigi-2023-ban').text
 soup = BeautifulSoup(html_text,"lxml")
-def length_if(tag):
-    return tag.name == 'p' and len(tag.text) < 25
-length_modif = soup.find_all(length_if)
+def length_test(tag):
+    return tag.name == 'p' and len(tag.text) < 40
+length_modif = soup.find_all(length_test)
 for x in length_modif:
     print((x.text).rsplit(" ",2))
     </samp>
