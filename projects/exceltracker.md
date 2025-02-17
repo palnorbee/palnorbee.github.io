@@ -3,7 +3,7 @@ title: Excel HAACP tracker in AppSheet
 layout: page
 ---
 
-<h1>Excel HAACP tracker in AppSheet</h1>
+<h1 style="color:#9300ff">Excel HAACP tracker in AppSheet</h1>
 <h3>I started this project as a solution for a problem we faced at my former workplace.We kept track with the HAACP on a simple excel spreadsheet,
 which had to be created weekly. The biggest issue was how inconvenient was to type and fill out the cells daily.I didn't have much experience with coding
 and I was looking for something like a frame that could handle those sheets as input. Thats when i found Appsheet,which is simple,brilliant for smaller
