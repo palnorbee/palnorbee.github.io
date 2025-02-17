@@ -5,8 +5,7 @@ layout: page
 <h1>Data scraping with Python(BeautifulSoup library)</h1>
 <h3>For analysis, firstly I needed some date, which turned out to be the price of tobacco both in Hungary and Belgium.I kept looking until i found some 
 table-like information with names and prices.</h3>
-<h2 style="text-align:center;">Hungarian site</h2>
-<br><br>
+<h2 style="text-align:center;color:#9300ff;">Hungarian site</h2>
 <h4>First attempt</h4>
 <details>
     <summary>Filtering matching string</summary>
