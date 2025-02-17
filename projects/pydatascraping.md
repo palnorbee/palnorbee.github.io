@@ -3,6 +3,7 @@ title: Data scraping with Python
 layout: page
 ---
 <h1>Data scraping with Python(BeautifulSoup library)</h1>
+<h2 style="text-align:center;">Hungarian site</h2>
 <h3>For analysis, firstly I needed some date, which turned out to be the price of tobacco both in Hungary and Belgium.I kept looking until i found some 
 table-like information with names and prices.</h3>
 <br><br>
@@ -51,6 +52,32 @@ for x in length_modif:
 f = open("tobaccoprices_2023_hu.txt", "w")
 for x in length_modif:
     f.writelines(str(x.rsplit(" ",2))+"\n")
+    </samp>
+    </pre>
+</details>
+<h2 style="text-align:center;">Belgian site</h2>
+<h4>First attempt</h4>
+<details>
+    <summary>Filtering for tags</summary>
+    <pre>
+    <samp>
+import re
+from bs4 import BeautifulSoup
+import requests
+        <br><br>
+html_text = requests.get('https://www.tabakshoekje.be/index.php?p=product&subcat=sigaretten').text
+soup = BeautifulSoup(html_text,'lxml')
+names = soup.find_all('tr')
+    </samp>
+    </pre>
+</details>
+<details>
+    <summary>Creating the text file</summary>
+    <pre>
+    <samp>
+f= open("tobaccoprices_2023_be.txt","w")
+for x in names:
+    f.writelines(str(x.text.rsplit(maxsplit=3)).strip()+"\n")
     </samp>
     </pre>
 </details>
