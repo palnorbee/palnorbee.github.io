@@ -3,7 +3,7 @@ title: Data scraping with Python
 layout: page
 ---
 <h1 style="color:#9300ff;">Data scraping with Python(BeautifulSoup library)</h1>
-<h3>For analysis, firstly I needed some date, which turned out to be the price of tobacco both in Hungary and Belgium.I kept looking until i found some 
+<h3>For analysis, firstly I needed some data, which turned out to be the price of tobacco both in Hungary and Belgium.I kept looking until i found some 
 table-like information with names and prices.</h3>
 <h2 style="text-align:center;color:#9300ff;">Hungarian site</h2>
 <h4>First attempt</h4>
