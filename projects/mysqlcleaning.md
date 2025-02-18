@@ -179,3 +179,70 @@ SELECT DISTINCT *
 FROM tobacco_prices_2023_hu_final;
     </samp>
     </pre>
+<br><br>
+<h2 style="text-align:center;color:#9300ff;">Belgian prices</h2>
+<details>
+    <summary>Process</summary>
+    <pre>
+    <samp>
+SELECT *
+FROM tobacco_prices_2023_be;
+
+ALTER TABLE tobacco_prices_2023_be
+DROP COLUMN PRICE_PER_200,DROP COLUMN PRICE_PER_200_CONT;
+
+SELECT replace(PRICE_CONT,"0","")
+FROM tobacco_prices_2023_be
+WHERE PRICE_CONT = 0;
+
+UPDATE tobacco_prices_2023_be
+SET PRICE_CONT = REPLACE(PRICE_CONT,"0","")
+WHERE PRICE_CONT = "0";
+
+ALTER TABLE tobacco_prices_2023_be
+MODIFY PRICE_CONT text;
+
+SELECT CONCAT(PRICE,".",PRICE_CONT)
+FROM tobacco_prices_2023_be
+WHERE PRICE_CONT >0;
+
+UPDATE tobacco_prices_2023_be
+SET PRICE = CONCAT(PRICE,".",PRICE_CONT)
+WHERE PRICE_CONT >0;
+
+ALTER TABLE tobacco_prices_2023_be MODIFY PRICE TEXT;
+
+ALTER TABLE tobacco_prices_2023_be
+DROP COLUMN PRICE_CONT;
+
+ALTER TABLE tobacco_prices_2023_be MODIFY PRICE FLOAT;
+
+SELECT *
+FROM tobacco_prices_2023_be;
+
+SELECT RIGHT(PRODUCT, char_length(PRODUCT) - 2)
+FROM tobacco_prices_2023_be;
+
+UPDATE tobacco_prices_2023_be
+SET PRODUCT = RIGHT(PRODUCT, char_length(PRODUCT) - 2);
+
+UPDATE tobacco_prices_2023_be
+SET PRODUCT = upper(PRODUCT);
+
+CREATE TABLE tobacco_prices_2023_be_final LIKE tobacco_prices_2023_be;
+
+INSERT INTO tobacco_prices_2023_be_final
+SELECT *
+FROM tobacco_prices_2023_be
+WHERE SIZE = 20;
+
+ALTER TABLE tobacco_prices_2023_be_final
+DROP COLUMN SIZE;
+
+ALTER TABLE tobacco_prices_2023_be_final
+MODIFY PRICE TEXT;
+
+UPDATE tobacco_prices_2023_be_final
+SET PRICE = concat(PRICE," €");
+    </samp>
+    </pre>
