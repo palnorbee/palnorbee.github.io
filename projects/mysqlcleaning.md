@@ -180,8 +180,8 @@ FROM tobacco_prices_2023_hu_final;
     </samp>
     </pre>
 </details>
-<br><br>
 <h2 style="text-align:center;color:#9300ff;">Belgian prices</h2>
+<h3>This one was easier.I got rid of the price/200 column since the hungarian products come in 20pieces.</h3>
 <details>
     <summary>Process</summary>
     <pre>
