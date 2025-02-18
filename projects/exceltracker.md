@@ -18,3 +18,21 @@ Unfortunately, management turned down the idea thus i stopped finishing it.2 thi
 
 <img src="https://palnorbee.github.io/projects/screenshot.PNG" alt="Screenshot of the data"> 
 <center><h5>Screenshot of the data<h5><center>
+<div class="zoom">
+  <img src="https://palnorbee.github.io/projects/screenshot.PNG" alt="Screenshot of the data">   
+</div>
+
+
+<style>
+    
+.zoom {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+</style>
