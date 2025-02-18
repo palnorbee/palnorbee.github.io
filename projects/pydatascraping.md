@@ -67,6 +67,8 @@ import requests
 html_text = requests.get('https://www.tabakshoekje.be/index.php?p=product&subcat=sigaretten').text
 soup = BeautifulSoup(html_text,'lxml')
 names = soup.find_all('tr')
+for x in names:
+    print(str(x.text.rsplit(maxsplit=3)).strip())
     </samp>
     </pre>
 </details>
