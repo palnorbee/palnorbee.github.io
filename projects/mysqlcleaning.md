@@ -179,6 +179,7 @@ SELECT DISTINCT *
 FROM tobacco_prices_2023_hu_final;
     </samp>
     </pre>
+</details>
 <br><br>
 <h2 style="text-align:center;color:#9300ff;">Belgian prices</h2>
 <details>
@@ -246,3 +247,4 @@ UPDATE tobacco_prices_2023_be_final
 SET PRICE = concat(PRICE," €");
     </samp>
     </pre>
+</details>
