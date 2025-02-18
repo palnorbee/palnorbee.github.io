@@ -1,0 +1,57 @@
+---
+layout: page
+title: Projects
+---
+
+
+
+<div class="grid-container">
+  <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="{{ site.url }}/assets/images/excel.jpg" alt="Excel" width="200" height="85">
+        <div class="card-body">
+            <h5 class="card-title">HAACP tracker(AppSheet)</h5>
+            <p style="margin-bottom:20px;">A simple HAACP tracker app, with the possibility of automation.</p>
+            <a href="https://palnorbee.github.io/projects/exceltracker">Read More</a>
+        </div>
+    </div>
+ <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="{{ site.url }}/assets/images/Python.jpg" alt="Python" width="200" height="85">
+        <div class="card-body">
+            <h5 class="card-title">Data scraping with Python</h5>
+            <p style="margin-bottom:46px;"card-text">Using the Beautiful Soup library in Python for data scraping.</p>
+            <a href="https://palnorbee.github.io/projects/pydatascraping">Read More</a>
+        </div>
+    </div>
+  <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="{{ site.url }}/assets/images/MySQL.jpg" alt="MySQL" width="200" height="85">
+        <div class="card-body">
+            <h5>Data cleaning in MySQL</h5>
+            <p style="margin-bottom:46px;">Using the data from the previous project for data cleaning in MySQL</p>
+            <a href="https://palnorbee.github.io/projects/mysqlcleaning">Read More</a>
+        </div>
+    </div>
+</div>
+
+<style>
+.grid-container {
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 22px;
+  display:flex;
+  flex-flow :row wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+ .card {
+  background-color: $alpha;
+  border-radius: 25px;
+  border: 2px solid #9300ff ;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+
+
+
+}
+
+</style>
