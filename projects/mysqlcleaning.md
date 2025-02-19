@@ -4,10 +4,10 @@ layout: page
 ---
 <h1 style="color:#9300ff;">Data cleaning in MySQL</h1>
 <h3></h3>
-<h2 style="text-align:center;color:#9300ff;">Hungarian prices</h2>
-<h3>Unfortunately for me, there was a lot wrong with this data,from messed up columns to missing values so it really challanged me to fix it efficiently.</h3>
+<h2 style="text-align:center;color:#9300ff;">Hungarian prices.</h2>
+<h3>Unfortunately for me, there was a lot wrong with this data, from messed-up columns to missing values, so it really challenged me to fix it efficiently.</h3>
 <details>
-    <summary>Process</summary>
+    <summary>Process:</summary>
     <pre>
     <samp>
 #SELECT *
@@ -180,10 +180,10 @@ FROM tobacco_prices_2023_hu_final;
     </samp>
     </pre>
 </details>
-<h2 style="text-align:center;color:#9300ff;">Belgian prices</h2>
-<h3>This one was easier.I got rid of the price/200 column since the hungarian products come in 20pieces.</h3>
+<h2 style="text-align:center;color:#9300ff;">Belgian prices.</h2>
+<h3>This one was easier.I got rid of the price/200 column since the Hungarian products come in 20 pieces.</h3>
 <details>
-    <summary>Process</summary>
+    <summary>Process:</summary>
     <pre>
     <samp>
 SELECT *
