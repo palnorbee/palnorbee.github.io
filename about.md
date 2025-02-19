@@ -19,9 +19,4 @@ layout: page
 </ul>
 
 <h2>Projects</h2>
-
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+<a href="https://palnorbee.github.io/projects/">For more information, please check the "Projects" page.</a>
