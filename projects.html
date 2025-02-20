@@ -31,7 +31,9 @@ title: Projects
         </div>
     </div>
 </div>
-<img style="position:fixed;bottom:0px;right:5px;"src="{{ site.url }}/assets/images/tobecontinued" alt="Next page" width="150" height="100">
+<div class="imgi">
+    <img style="position:fixed;bottom:0px;right:5px;"src="{{ site.url }}/assets/images/tobecontinued" alt="Next page" width="150" height="100">
+</div>
 <style>
 .grid-container {
   grid-template-columns: repeat(3, 1fr);
@@ -49,9 +51,16 @@ title: Projects
   padding: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 
-
+imgi{}
 
 
 }
 
 </style>
+<script>
+    $('img').mouseenter(function(){
+  var audioElement = document.createElement('audio');
+  audioElement.setAttribute('src', 	 		'{{ site.url }}/assets/jojo');
+  audioElement.play();
+});
+</script>
