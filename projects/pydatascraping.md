@@ -81,3 +81,6 @@ for x in names:
     </samp>
     </pre>
 </details>
+<h2 style="text-align:center;color:#9300ff;">Results:</h2>
+<a href="https://palnorbee.github.io/assets/tobacco_prices_2023_hu.csv">Tobacco prices 2023 Hungary.</a>
+<a href="https://palnorbee.github.io/assets/tobacco_prices_2023_be.csv">Tobacco prices 2023 Belgium.</a>
