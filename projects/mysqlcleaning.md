@@ -248,3 +248,6 @@ SET PRICE = concat(PRICE," €");
     </samp>
     </pre>
 </details>
+<h2 style="text-align:center;color:#9300ff;">Results:</h2>
+<a href="https://palnorbee.github.io/assets/tobacco_prices_2023_hu_clean.csv">Tobacco prices 2023 Hungary.</a><br><br>
+<a href="https://palnorbee.github.io/assets/tobacco_prices_2023_be_clean.csv">Tobacco prices 2023 Belgium.</a>
