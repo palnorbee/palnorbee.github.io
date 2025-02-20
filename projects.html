@@ -34,6 +34,8 @@ title: Projects
 
 <img onmouseover="PlaySound('mySound')"style="position:fixed;bottom:0px;right:5px;"src="{{ site.url }}/assets/images/tobecontinued" alt="Next page" width="150" height="100">
 <audio id='mySound' src='https://palnorbee.github.io/assets/jojo.mp3'/>
+<p onmouseover="PlaySound('mySound')" 
+    onmouseout="StopSound('mySound')">Hover Over Me To Play</p>
 <style>
 .grid-container {
   grid-template-columns: repeat(3, 1fr);
