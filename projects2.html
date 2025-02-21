@@ -31,34 +31,11 @@ title: Projects
         </div>
     </div>
 </div>
-<br><br>
-<div class="grid-container">
-  <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="{{ site.url }}/assets/images/excel.jpg" alt="Excel" width="200" height="85">
-        <div class="card-body">
-            <h5 class="card-title">HAACP tracker(AppSheet)</h5>
-            <p style="margin-bottom:20px;">A simple HAACP tracker app, with the possibility of automation.</p>
-            <a href="https://palnorbee.github.io/projects/exceltracker">Read More</a>
-        </div>
-    </div>
- <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="{{ site.url }}/assets/images/Python.jpg" alt="Python" width="200" height="85">
-        <div class="card-body">
-            <h5 class="card-title">Data scraping with Python</h5>
-            <p style="margin-bottom:46px;"card-text">Using the Beautiful Soup library in Python for data scraping.</p>
-            <a href="https://palnorbee.github.io/projects/pydatascraping">Read More</a>
-        </div>
-    </div>
-  <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="{{ site.url }}/assets/images/MySQL.jpg" alt="MySQL" width="200" height="85">
-        <div class="card-body">
-            <h5>Data cleaning in MySQL</h5>
-            <p style="margin-bottom:46px;">Using the data from the previous project for data cleaning in MySQL</p>
-            <a href="https://palnorbee.github.io/projects/mysqlcleaning">Read More</a>
-        </div>
-    </div>
-</div>
 
+<img onmouseover="PlaySound('mySound')"onmouseout="StopSound('mySound')"style="position:fixed;bottom:0px;right:5px;"src="{{ site.url }}/assets/images/tobecontinued" alt="Next page" width="150" height="100">
+<audio id='mySound' src='https://palnorbee.github.io/assets/jojo.mp3'/>
+<p onmouseover="PlaySound('mySound')" 
+    onmouseout="StopSound('mySound')">Hover Over Me To Play</p>
 <style>
 .grid-container {
   grid-template-columns: repeat(3, 1fr);
@@ -82,3 +59,19 @@ title: Projects
 }
 
 </style>
+<script>
+function PlaySound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.play();
+}
+
+function StopSound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.pause();
+    thissound.currentTime = 0;
+}
+
+
+
+    
+</script>
