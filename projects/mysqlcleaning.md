@@ -254,9 +254,9 @@ SET PRICE = concat(PRICE," €");
 <h6 style="text-align:center;color:#9300ff;">Resources:</h6>
 <ul>
     <li>
-        <a href="https://szamoldki.hu/hu/hirek/cigaretta-arak-2023-mennyibe-kerul-egy-doboz-cigi-2023-ban">Tobacco prices 2023 Hungary.</a>
+        <a href="https://szamoldki.hu/hu/hirek/cigaretta-arak-2023-mennyibe-kerul-egy-doboz-cigi-2023-ban"><small>Tobacco prices 2023 Hungary.</small></a>
     </li>
     <li>
-      <a href="https://www.tabakshoekje.be/index.php?p=product&subcat=sigaretten">Tobacco prices 2023 Belgium.</a>  
+      <a href="https://www.tabakshoekje.be/index.php?p=product&subcat=sigaretten"><small>Tobacco prices 2023 Belgium.</small></a>  
     </li>
 </ul>
