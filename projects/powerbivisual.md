@@ -38,9 +38,7 @@ layout: page
   </tr>
 </table>
 <h3>We can see that the price of tobacco in general is cheap in comparison with the e-liquid. So if a person wants to buy one (which is not realistic in most cases), it's better to go with a pack of cigarettes. However, addiction is unfortunately for the long run, and for that, we can see a significant difference.</h3>
-<div class="zoom">
-  <img src="https://palnorbee.github.io/assets/images/table_hu.png" alt="Table hu">   
-</div>
+<img src="https://palnorbee.github.io/assets/images/table_hu.png" alt="Table hu">
 <center><h5>Hungary.<h5><center>
 <div class="zoom">
   <img src="https://palnorbee.github.io/assets/images/graph_be.png" alt="Line chart hu">   
