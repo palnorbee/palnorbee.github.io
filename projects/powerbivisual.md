@@ -8,11 +8,28 @@ layout: page
 <div class="zoom">
   <img src="https://palnorbee.github.io/assets/images/graph_hu.png" alt="Line chart hu">   
 </div>
-<center><h5>Screenshot of the data.<h5><center>
+<center><h5>Hungary.<h5><center>
+<div class="zoom">
+  <img src="https://palnorbee.github.io/assets/images/graph_be.png" alt="Line chart hu">   
+</div>
+<center><h5>Belgium.<h5><center>
 
-
-
-
+<table style="width:100%">
+  <tr>
+    <th></th>
+    <th>Price(Ft)</th>
+    <th>Price(EUR)</th>
+    <th>Price/ml(EUR)</th>
+  </tr>
+  <tr>
+    <td>PG/VG</td>
+    <td>Nicotine</td>
+    <td>Aroma</td>
+  </tr>
+  <tr>
+    
+  </tr>
+</table>
 
 
 
@@ -42,5 +59,8 @@ layout: page
   -ms-transform: scale(1.5);
   -webkit-transform: scale(1.5); 
   transform: scale(1.5); 
+}
+table,td {
+  border:1px solid #9300ff;
 }
 </style>
