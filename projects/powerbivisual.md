@@ -23,11 +23,12 @@ layout: page
   </tr>
   <tr>
     <td>PG/VG</td>
-    <td>Nicotine</td>
-    <td>Aroma</td>
   </tr>
   <tr>
-    
+    <td>Nicotine</td>
+  </tr>
+  <tr>
+     <td>Aroma</td> 
   </tr>
 </table>
 
