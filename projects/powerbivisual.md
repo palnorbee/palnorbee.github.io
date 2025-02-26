@@ -45,7 +45,7 @@ layout: page
 </div>
 <center><h5>Belgium.<h5><center>
 <h4>Same goes for this: 70/30 base + nicotine + around 10% aroma. That means, for 100 ml, we need 87 ml base + 3 ml nicotine + 10 ml aroma. In total, that's approximately 4.13€.</h4>
-<table style="width:100%;">
+<table style="width:100%;font-size:10">
   <tr>
     <th></th>
     <th>Price(EUR)</th>
