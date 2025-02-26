@@ -70,7 +70,6 @@ layout: page
     <td>0,26</td>
   </tr>
 </table>
-<br><br>
 <img src="https://palnorbee.github.io/assets/images/table_be.png" alt="Table be">
 
 
