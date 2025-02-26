@@ -92,7 +92,9 @@ layout: page
 
 
 <style>
-    
+   th, td {
+    font-size: 18px;
+  }  
 .zoom {
   transition: transform .2s;
   margin: 0 auto;
