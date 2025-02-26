@@ -94,7 +94,7 @@ layout: page
 <style>
    th, td {
     font-size: 18px;
-    font-style:normal;
+    font-weight:normal;
   }  
 .zoom {
   transition: transform .2s;
