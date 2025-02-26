@@ -8,8 +8,6 @@ layout: page
 <div class="zoom">
   <img src="https://palnorbee.github.io/assets/images/graph_hu.png" alt="Line chart hu">   
 </div>
-<h4>The basic formula for the E-liquid is usually 70/30 base + nicotine + around 10% aroma. That means, for 100 ml, we need 90 ml base + 10 ml aroma. In total, that's approximately 4.68€.
-</h4>
 <table style="width:100%">
   <tr>
     <th></th>
@@ -36,6 +34,7 @@ layout: page
      <td>0,261</td>
   </tr>
 </table>
+<h4>The basic formula for the E-liquid is usually 70/30 base + nicotine + around 10% aroma. That means, for 100 ml, we need 90 ml base + 10 ml aroma. In total, that's approximately 4.68€.</h4>
 <h3>We can see that the price of tobacco in general is cheap in comparison with the e-liquid. So if a person wants to buy one (which is not realistic in most cases), it's better to go with a pack of cigarettes. However, addiction is unfortunately for the long run, and for that, we can see a significant difference.</h3>
 <img src="https://palnorbee.github.io/assets/images/table_hu.png" alt="Table hu">
 <center><h5>Hungary.<h5><center>
@@ -71,7 +70,7 @@ layout: page
     <td>0,26</td>
   </tr>
 </table>
-
+<img src="https://palnorbee.github.io/assets/images/table_be.png" alt="Table be">
 
 
 
