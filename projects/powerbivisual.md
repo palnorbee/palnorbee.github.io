@@ -36,7 +36,7 @@ layout: page
   </tr>
 </table>
 <h4>The basic formula for the E-liquid is usually 70/30 base + nicotine + around 10% aroma. That means, for 100 ml, we need 90 ml base + 10 ml aroma. In total, that's approximately 4.68€.</h4>
-<h3>We can see that the price of tobacco in general is cheap in comparison with the e-liquid. So if a person wants to buy one (which is not realistic in most cases), it's better to go with a pack of cigarettes. However, addiction is unfortunately for the long run, and for that, we can see a significant difference.</h3>
+<h3>We can see that the price of cigarettes in general is cheap in comparison with the e-liquid. So if a person wants to buy one (which is not realistic in most cases), it's better to go with a pack of cigarettes. However, addiction is unfortunately for the long run, and for that, we can see a significant difference.</h3>
 <img src="https://palnorbee.github.io/assets/images/table_hu.png" alt="Table hu">
 <h3>On this table, we can see all the different prices and how much we would spend in a year for our indulgence. If we take the most expensive cigarette from our data, in 5 years we could spare enough to buy a used vehicle, 3x the newest iPhone, a really good gaming PC, or a 2-week-long trip to Japan.</h3>
 <div class="zoom">
