@@ -3,7 +3,7 @@ title: PowerBI visualisation.
 layout: page
 ---
 <h1 style="color:#9300ff;">PowerBI visualisation.</h1>
-<h4>Disclaimer:
+<h4 style="text-decoration:underline";>Disclaimer:
     For my calculations, I took myself as an example. When I used to smoke, I smoked half a pack (10) a day. Since the switch, I vape 100 ml in two weeks. I couldn't find a source for the Dutch cigarette prices, so I used a Belgian one. All data is shown at the bottom of the page.</h4>
 <h3>For the visuals, we take the previous data and draw the conclusions based on those.</h3>
 <h2 style="text-align:center;color:#9300ff;">Line charts&Tables:</h2>
