@@ -71,7 +71,7 @@ layout: page
   </tr>
 </table>
 <img src="https://palnorbee.github.io/assets/images/table_be.png" alt="Table be">
-
+<h3>The average salary in Belgium is much higher; therefore, the price of tobacco is following it. Surprisingly enough, it's easier to acquire the components of e-liquid, and it's cheaper in bulk. If we look at the table, it's clear how absurdly we could cut the costs by switching to vaping. To put that into perspective again, with the money spared in 5 years, we could buy 7x of the newest iPhones, multiple high-end PCs, pay off our student loans (if we have one), and much more.</h3>
 
 
 
