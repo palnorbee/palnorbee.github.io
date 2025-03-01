@@ -4,13 +4,13 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
+<h2>About me:</h2>
 
 
 <h2>Skills:</h2>
 
 <ul class="skill-list">
-	<li>Microsoft Excel</li>
-	<li>Microsoft Access</li>
+	<li>Microsoft Office products</li>
 	<li>Python</li>
     <li>MySQL</li>
 	<li>Power BI</li>
