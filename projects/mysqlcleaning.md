@@ -5,7 +5,7 @@ layout: page
 <h1 style="color:#9300ff;">Data cleaning in MySQL</h1>
 <h3></h3>
 <h2 style="text-align:center;color:#9300ff;">Hungarian prices.</h2>
-<h3>Unfortunately for me, there was a lot wrong with this data, from messed-up columns to missing values, so it really challenged me to fix it efficiently.</h3>
+<h3>There was a lot wrong with the original data, from messed-up columns to missing values, so it really challenged me to fix it efficiently.</h3>
 <details>
     <summary>Process:</summary>
     <pre>
