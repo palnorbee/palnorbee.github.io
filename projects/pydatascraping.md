@@ -3,7 +3,7 @@ title: Data scraping with Python
 layout: page
 ---
 <h1 style="color:#9300ff;">Data scraping with Python(BeautifulSoup library)</h1>
-<h3>For analysis, firstly I needed some data, which turned out to be the price of tobacco both in Hungary and Belgium.I kept looking until I found some table-like information with names and prices.</h3>
+<h3>For analysis, firstly I needed some data, which turned out to be the price of cigarettes both in Hungary and Belgium.I kept looking until I found some table-like information with products and prices.</h3>
 <h2 style="text-align:center;color:#9300ff;">Hungarian site.</h2>
 <h4>First attempt:</h4>
 <details>
@@ -42,7 +42,7 @@ for x in length_modif:
     </samp>
     </pre>
 </details>
-<h4>Now all I had to do was save it in a txt file. I prefer using the TXT and later converting it into CSV rather than using the CSV module of Python.</h4>
+<h4>Now all I had to do was save it in a txt file. I prefer using the TXT and later and simply converting it into CSV rather than using the CSV module of Python.</h4>
 <details>
     <summary>Creating the text file.</summary>
     <pre>
