@@ -38,7 +38,7 @@ disqus:
 #twitter: mytwitter
 #instagram: myinstagram
 linkedin: mylinkedin
-github: mygithub
+#github: mygithub
 email: myemail@gmail.com
 
 authors:
@@ -80,7 +80,7 @@ related: false
 post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: faése
+show-author: false
 
 # do you want some animations?
 animation: true
