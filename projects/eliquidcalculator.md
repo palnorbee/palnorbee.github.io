@@ -12,7 +12,7 @@ For that, I chose Tkinter. I never worked with it, but it seemed user-friendly e
  <li>Making it allow multiple inputs for additives.</li>
  <li>Giving it a bit more modern look if possible.</li>
 </ul></h3>
-<a style="font-size:14px";href="https://github.com/palnorbee/eliquidcalculator">Check this project out on github!</a>
+<a href="https://github.com/palnorbee/eliquidcalculator">Check this project out on github!</a>
 <h3>Overall, I was very happy with how it turned out; I will definitely use the knowledge I acquired working on this.</h3>
 <h3 style="color:#9300ff">Improvements for the future:</h3>
 <h3><ul>
@@ -20,3 +20,9 @@ For that, I chose Tkinter. I never worked with it, but it seemed user-friendly e
  <li>Trying to reduce the size of the exe.</li>
  <li>Experiencing more with the theme.</li>
 </ul></h3>
+
+<style>
+a {
+  font-size: 14px;
+}
+</style>
