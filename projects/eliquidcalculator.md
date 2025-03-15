@@ -23,6 +23,7 @@ For that, I chose Tkinter. I never worked with it, but it seemed user-friendly e
 
 <style>
 a {
-  font-size: 14px;
+  font-size: 20px;
+  text-align: center;
 }
 </style>
