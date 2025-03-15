@@ -11,7 +11,7 @@ layout: page
 
 <iframe src="https://www.appsheet.com/preview/bfe20753-0516-44ef-8d63-610a988fa2c0" width="1400" height="600"></iframe> 
 <center><h6>Preview of the app.<h6><center>
-<h4><a href="https://www.appsheet.com/start/bfe20753-0516-44ef-8d63-610a988fa2c0refresh=1&wipe=1">If for some reason the preview is broken, click here.</a></h4>
+<h4><a href="https://www.appsheet.com/start/bfe20753-0516-44ef-8d63-610a988fa2c0">If for some reason the preview is broken, click here.</a></h4>
 
 <div class="zoom">
   <img src="https://palnorbee.github.io/projects/screenshot.PNG" alt="Screenshot of the data.">   
