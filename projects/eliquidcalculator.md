@@ -7,7 +7,7 @@ layout: page
 For that, I chose Tkinter. I never worked with it, but it seemed user-friendly enough to give it a try. As always, learning while doing it.</h3>
 <h3 style="color:#9300ff">A few criteria I had for this project:</h3>
 <h3><ul>
- <li>Making it foolproof so only numbers are allowed, no zero, no strings.</li>
+ <li>Making it foolproof so only numbers are allowed, no zero, no other characters.</li>
  <li>Making it accurate, so the results should return in decimal values.</li>
  <li>Making it allow multiple inputs for additives.</li>
  <li>Giving it a bit more modern look if possible.</li>
