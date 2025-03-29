@@ -1,5 +1,5 @@
 ---
-title: Data scraping with Python
+title: E-liquid calculator with GUI
 layout: page
 ---
 <h1 style="color:#9300ff;">E-liquid calculator with GUI(Python/Tkinter)</h1>
